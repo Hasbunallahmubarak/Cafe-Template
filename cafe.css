@@ -1,0 +1,37 @@
+@charset "UTF-8";
+*{box-sizing: border-box; font-family: Arial,sans-serif;margin:0px;}
+body,html{height: 100%;}
+body{background-color: rgba(190,150,180,0.1);}
+div#nav-bar{width: 100%;background-color:rgb(0,0,0); overflow: hidden;padding: 2px; overflow: hidden;position: fixed;top: 0;z-index: 1;}
+#nav-bar a{text-decoration: none; color:#ffffff; padding: 10px;width: 25%;font-size: 20px;float: left;text-align: center;}
+#nav-bar a:hover{background-color:#ccc; color: rgb(0,0,0);}
+.bg{background-image: url(cafe/coffeehouse.jpg);background-repeat: no-repeat;background-size: cover;background-position: center;height: 70%;background-attachment: scroll;
+filter: grayscale(50%);-webkit-filter:grayscale(50%);position: relative;z-index: -1;}
+.bg h1{position: absolute;left: 50%; top:50%; transform: translate(-50%,-50%);font-size: 6vw;color:rgb(255,255,255) }
+h5:first-child{ position: absolute;bottom: 10px;background-color: rgb(0,0,0);color: rgb(255,255,255);padding: 10px;} 
+h5:last-child{float: right; direction: ltr;position: absolute;right: 0;padding: 10px; bottom: 10px; color:  rgb(255,255,255);}
+#about{text-align: center;text-transform: capitalize;background-color: rgb(0,0,0);color: rgb(255,255,255);padding: 10px; margin:30px auto;width: 250px;
+border-top-right-radius: 20px;border-bottom-left-radius: 20px;}
+section{width: 50%; margin: 50px auto;}
+p{text-align: justify;margin-top: 20px;font-size: 18px; line-height: 25px;}
+div.div{margin-top: 30px; background-color: #ddd;border: none; border-left: 10px solid #ccc;padding: 25px;}
+span:first-child{ font-size: 17px;}span:last-child{margin-top:20px; display: block;font-size: 18px;}
+section > img{width: 100%;margin-top: 30px;filter: grayscale(70%); -webkit-filter:grayscale(70%;);}
+section h3{display: inline-block;}section > span{font-size: 17px;display: inline;}
+div.open{margin: 30px 0px; color:rgb(20,20,20);}div.open b{font-weight: bold;color: rgb(0,0,0);}
+h2#menu{width:150px; background-color: rgb(0,0,0);color: rgb(255,255,255);padding: 5px;border-top-left-radius: 20px; border-bottom-right-radius: 20px; margin:30px auto;text-align: center;}
+iframe{width: 100%;box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);border:none;background-color: rgba(255,255,255,0.9);	}
+div.menu{width: 100%;box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.2);padding:25px 10px;background-color: rgba(255,255,255,0.9);border:1px outset;}
+.menu a{text-decoration: none;color: rgb(60,60,60);}
+.menu  h3{display:inline;width: 50%; float: left;text-align: center;}.menu h3:hover{background-color:#ccc;}
+#find{width: 250px;background-color: rgb(0,0,0);color: rgb(255,255,255);text-align:center;margin: 10px auto;padding: 1px;word-spacing: 5px;}
+p.top{margin-top: 30px;padding: 2px;}
+div.last{margin:30px 0px;text-align: justify;line-height: 28px;font-size: 18px;}
+span.fyi{width: 34px; background-color: rgb(0,0,0);color: rgb(255,255,255);text-transform:uppercase;padding: 3px;display: inline;text-align: center;}
+input{width: 100%; font-size: 20px; color: #ccc; padding: 10px 0px;margin: 10px 0px;} input[type="datetime-local"]{color: rgb(20,20,20);}
+form > button{ background-color: rgb(0,0,0);color: rgb(255,255,255);text-transform:uppercase; margin:10px 0px; padding: 10px;font-size: 18px;}
+form > button:hover{border-radius: 20px;}
+footer{background-color: #ddd;height: 100px;margin-bottom: 0px;}footer div{padding-top:20px; text-align: center;font-size: 20px;line-height: 30px;}
+footer span{background-color: rgb(0,0,0);color: rgb(255,255,255);padding: 5px;border-top-left-radius: 10px;border-top-right-radius: 10px;}
+footer a{text-decoration: none; color:rgb(0,0,0);}
+footer a:hover{background-color: rgb(0,0,0);color: rgb(255,255,255);padding: 5px;border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;}
